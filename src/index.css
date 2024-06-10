@@ -6,6 +6,16 @@
     url("./assets/fonts/Agustina.woff") format("woff");
   font-display: swap;
 }
+
+/* Add a font "jiangxizhuokai"*/
+@font-face {
+  font-family: "JiangXiZhuoKai";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/jiangxizhuokai.ttf") format("truetype");
+  font-display: swap;
+}
+
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
@@ -20,10 +30,12 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
+/* change the body text font to "JiangXiZhuoKai" */
 body {
   margin: 0;
-  background-color: #d2e8e8bf; /* 设置背景颜色 */
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  background-color: #d2e8e8bf; /* Set background color */
+  font: 19px / 23px "JiangXiZhuoKai",  "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
